@@ -1,6 +1,6 @@
 def n(nf):
 
-    nf = nf.strip.title
+    nf = nf.strip().title()
 
 def main():
     cl = input("Client: ")    
@@ -8,12 +8,14 @@ def main():
     hr = int(input("hourly rate:"))
     m = int(input("material cost"))
 
-l = hr * wh
-mc = m
-tc = l + mc
+    l = hr * wh
+    mc = m
+    tc = l + mc
     
     print("project costs: ")
-    print(l)
+    print(l)   
     print(mc)
-    print(tc)
+    print(tc)    
     print(n)
+
+main()
