@@ -1,21 +1,21 @@
-def name(formatedName):
-    formatedName = formatedName.strip().title()
-    return formatedName
+def n(nf):
+
+    nf = nf.strip().title()
 
 def main():
-    clientName = input("Client name: ")
-    EstimatedWorkHours = float(input("Estimated work hours: ")) 
-    hourlyRate = float(input("Hourly rate: "))
-    materialsUsed = int(input("Direct expenses: "))
+    cl = input("Client: ")    
+    wh = int(input("worked hours: "))
+    hr = int(input("hourly rate:"))
+    m = int(input("material cost"))
 
-    labor = EstimatedWorkHours * hourlyRate
-    directExpenses = materialsUsed
-    totalEstimate = labor + directExpenses  
-
-    print(f"PROJECT ESTIMATE") 
-    print(f"Client: " + name(clientName)) 
-    print(f"Labor cost: ${labor}") 
-    print(f"Direct expenses: ${directExpenses}") 
-    print(f"Total estimate: ${totalEstimate}") 
+    l = hr * wh
+    mc = m
+    tc = l + mc
     
+    print("project costs: ")
+    print(l)   
+    print(mc)
+    print(tc)    
+    print(n)
+
 main()

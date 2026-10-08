@@ -4,7 +4,12 @@
 
 Plan how your code will meet the product requirements. Keep answers brief.
 
+
 ## Inputs
+client's name
+estimated work hours,
+hourly rate,
+materials
 
 *List each input and its Python data type.*
     Client name
@@ -14,13 +19,10 @@ Plan how your code will meet the product requirements. Keep answers brief.
 
 ## Processing
 
-*What calculations, text clean up, numberic converstions, next will the program perform on the inputs?*
-    
-    
-    .strip().title() for text clean up
-    hour rate * hours worked in float 
-    materials = material cost
-    hour rates * hours worked + material cost = total amount
+*What calculations, text clean up, numberic converstions, ext will the program perform on the inputs?*
+hours to money
+total cost
+
 
 
 ```text
@@ -30,35 +32,34 @@ Plan how your code will meet the product requirements. Keep answers brief.
 ## Output
 
 *What will the program display? How will you format it?*
-    PROJECT ESTIMATE
-    Client: 
-    Labor cost: 
-    Direct expenses: 
-    Total estimate: 
+
+client's name in title format,
+Cost of:
+estimated work hours,
+materials,
+Total cost.
+
 ## Functions
 
 *Describe `main()` and at least one calculation function. For each, give its name, purpose, parameters, and returned result (or none).*
 
-def name(nameFormat):
-    - .strip().title() for text clean up
-    - return
+def name(nameformat)
+    
+    nameFormat = nameFormat.strip.title
 
-def main():
+def main()
 
-    Input functions:
-    - Client name
-    - Estimated work hours (float)
-    - Hourly rate (float)
-    - Direct expenses (int)
+input functions:
+client name, (cl)
+estimated work hours, (wh)
+hourly rate, (hr)
+materials (m)
 
-    Processing:
-    - Estimated work hours * Hourly rate (labor cost for time to dollar calculation )
-    - Direct expenses = Direct expenses (Materials used to dollar ratio)
-    - Direct expenses + (Estimated work hours * Hourly rate) ((Total cost for time and materials ))
+calculation functions:
+labor cost: (hrly rate ((hr)) * hrs works 
 
-    Output: (f"{}") for $$$ sign
-    PROJECT ESTIMATE
-    Client: 
-    Labor cost: $
-    Direct expenses: $
-    Total estimate: $
+return result/calculations result (Print)
+Correctly formated name
+Labor cost: $300.00 (hourly rate * hours workd)
+Direct expenses: $25.00 (materials)
+Total estimate: $325.00 (materials)
