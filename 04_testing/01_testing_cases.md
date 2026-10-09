@@ -45,9 +45,17 @@ The displayed name should be `Alex Taylor` without surrounding spaces.
 **Evidence (paste your terminal run):**
 
 ```text
-
+client name: aLEX tAYLOR
+estimated work hours: 2.5
+hourly rate: 30
+direct expenses: 0
+project estimate
+client:Alex Taylor
+laborcost: $75.0
+direct expenses: $0
+total estimate: $75.0
 ```
 
-**Pass / Fail and why:**
+**Pass / Fail and why:** The input must process the variable in order for the customer to run the output sucessfully. and it passed. when running the estimated work hours 2.5 * hourly rate of 30 had calculated laborcost exactly $75.0 and the direct expenses was $ 0 making the testing of the code complete to work.
 
 If a case fails, fix the program and add evidence of the rerun below that case.
