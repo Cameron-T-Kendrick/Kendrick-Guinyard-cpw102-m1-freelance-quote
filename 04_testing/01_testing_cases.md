@@ -27,7 +27,7 @@ Enter:
 
 ```
 
-**Pass / Fail and why:**
+**Pass / Fail and why:** the estimated hours 4 * the hourly rate 30 when calulated the number for laborcost was $120.0 and the direct expenses 15 adding the total $135, making the program for the customer run passable.
 
 ## Case 2: Partial hours and text cleanup
 
