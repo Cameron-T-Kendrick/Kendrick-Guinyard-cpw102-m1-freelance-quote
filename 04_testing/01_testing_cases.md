@@ -20,8 +20,15 @@ Enter:
 - Direct expenses: `15`
 
 **Expected labor cost and total:**
-
+Laborcost: $120.0
+Total estimate: $135.0
 **Evidence (paste your terminal run):**
+
+Project estimate
+Client:Alex Taylor
+Laborcost: $120.0
+Direct expenses: $15
+Total estimate: $135.0
 
 ```text
 
@@ -44,6 +51,20 @@ The displayed name should be `Alex Taylor` without surrounding spaces.
 
 **Evidence (paste your terminal run):**
 
+
+Project estimate
+Client:Alex Taylor
+client name: aLEX tAYLOR
+estimated work hours: 2.5
+hourly rate: 30
+direct expenses: 0
+
+Project estimate
+Client:Alex Taylor
+Laborcost: $75.0
+Direct expenses: $0
+Total estimate: $75.0
+
 ```text
 client name: aLEX tAYLOR
 estimated work hours: 2.5
@@ -59,3 +80,6 @@ total estimate: $75.0
 **Pass / Fail and why:** The input must process the variable in order for the customer to run the output sucessfully. and it passed. when running the estimated work hours 2.5 * hourly rate of 30 had calculated laborcost exactly $75.0 and the direct expenses was $ 0 making the testing of the code complete to work.
 
 If a case fails, fix the program and add evidence of the rerun below that case.
+
+
+Pass: Has formatted and calculated inputs correctly 
