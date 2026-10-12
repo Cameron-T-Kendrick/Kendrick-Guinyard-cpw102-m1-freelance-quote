@@ -12,7 +12,10 @@ hourly rate,
 materials
 
 *List each input and its Python data type.*
-
+    Client name
+    Estimated work hours
+    Hourly rate
+    Direct expenses
 
 ## Processing
 
